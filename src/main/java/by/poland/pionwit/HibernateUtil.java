@@ -4,12 +4,6 @@ import org.hibernate.cfg.AnnotationConfiguration;
 import org.hibernate.SessionFactory;
 import org.hibernate.cfg.Configuration;
 
-/**
- * Hibernate Utility class with a convenient method to get Session Factory
- * object.
- *
- * @author Vitalij
- */
 public class HibernateUtil {
 
     private static final SessionFactory sessionFactory;
